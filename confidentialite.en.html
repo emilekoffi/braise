@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Braise — Privacy</title>
+<style>
+  :root {
+    --paper: #FBF6EF; --ink: #1A1512; --muted: #6b625b;
+    --paprika: #C04B27; --rule: rgba(26,21,18,.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #120E0C; --ink: #F5EEE6; --muted: #a2988f;
+            --paprika: #F0703C; --rule: rgba(245,238,230,.14); }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink);
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         padding: 2.5rem 1.25rem 4rem; }
+  main { max-width: 44rem; margin: 0 auto; }
+  .brand { font-weight: 800; letter-spacing: .14em; text-transform: uppercase;
+           font-size: .72rem; color: var(--paprika); }
+  h1 { font-size: 2rem; line-height: 1.15; margin: .4rem 0 0; }
+  h2 { font-size: 1.2rem; line-height: 1.3; margin: 2.2rem 0 .6rem; }
+  .revised, .nav { color: var(--muted); font-size: .85rem; }
+  .intro { font-size: 1.05rem; }
+  ul { padding-left: 1.1rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--paprika); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0 1.2rem; }
+</style>
+</head>
+<body>
+<main>
+  <p class="brand">Braise</p>
+  <h1>Privacy</h1>
+<p class="revised">Last revised: 2 November 2026</p>
+<p class="intro">The Braise app collects no personal data — only an email you choose to write to us ever reaches us. No account, no server, no analytics, no advertising, no tracker. This document exists to say so plainly, and to describe the only two things the app fetches over the network: photos and typefaces.</p>
+<h2>What we do not do</h2>
+<p>The app has no server, no user account, and makes no request to the publisher. It therefore sends us, literally, no data about you. Only an email you decide to write reaches us: see “If you write to us”.</p>
+<ul>
+<li>No sign-up, no identifier, no password.</li>
+<li>No analytics and no usage statistics.</li>
+<li>No advertising, no tracker, no profiling.</li>
+<li>No third-party SDK that would collect data.</li>
+<li>No system permission: no location, camera, contacts, microphone or photo library.</li>
+</ul>
+<h2>What stays on your device</h2>
+<p>Braise keeps the following in the app’s local storage: your favourites; your menu and its schedule; your fridge contents and settings, with the date each item went in and its known quantity; the stock from your shopping list, with the date of each tick; the items you add to your shopping list, with their notes, and those from the previous list; the language and theme you chose; your first name, if you gave it; your own recipes and ingredients. Two technical markers sit alongside them: the version of the data format, and whether you have already seen the app’s introduction.</p>
+<p>Braise also keeps what spares it from repeating itself, and you from entering everything again: your At home profile (your diets, your allergies, how many people you cook for, and the recipes you asked it to stop suggesting); your targets for one serving (“My targets”); the last settings of each recipe; the recipes the dice showed you lately, so it does not serve them up again straight away; the recipes of the day already shown on this device, so it does not suggest them again too soon; the date of your last backup, shown in the Me tab; if you turn on nutrition tracking, that setting, and your targets for the day if you set any; and the cooking session in progress — the steps done and when each timer ends —, which Braise no longer resumes after 24 hours.</p>
+<p>Finally, Braise keeps a journal of what you do in the kitchen. It is written at your request, notably when you tap “I cooked this”, “I ate some” or “Eaten” on a leftover, when you add a meal to “Today”, and when you take an item out of the fridge with “Used” or “Thrown away”. It holds what you cooked, when, in how many servings and what is left of it, with the weights you noted and what each dish took off the menu and out of the fridge; what you noted eating, with its estimated nutrition values, or those you typed in; and what you used up or threw away from the fridge. Nutrition tracking, which adds “I ate some” and the “Today” card, is optional and off by default; turning it off does not erase the journal.</p>
+<p>The journal is a file, which stays on the device, in the app’s storage, next to the preferences. All this data, journal included, is part of the app’s data. It is therefore included in the device backups you have turned on: iCloud or your computer for an iPhone or iPad, Google backup for an Android device. Those backups are tied to your Apple or Google account; the publisher has no access to them.</p>
+<p>Uninstalling Braise erases the local copy, journal included. Backups follow your own settings: you manage and delete them from the settings of your device or account.</p>
+<p>None of this data, journal included, is sent to the publisher. Apart from the device backups, it leaves the device only when you act: a list or a recipe you share, a backup file or the journal you export (see “What you share”). Your diets and allergies, in particular, stay on the device and in its backups: Braise never sends them anywhere. It uses them only on the device itself, to choose the recipes it suggests and to flag an allergen on a recipe.</p>
+<h2>What leaves: photos and typefaces</h2>
+<p>Recipe photographs are not embedded — they would be too heavy — except the publisher’s own, which ship with the app. The app downloads the others from the servers of the two image banks that host them, then caches them on the device so it need not ask again.</p>
+<p>Those requests go to upload.wikimedia.org (Wikimedia Foundation) and images.pexels.com (Pexels). As with any internet request, these services see your IP address and the usual technical information. They receive no indication about you, nor about what you are cooking beyond the image requested. Their own privacy policies govern what they do with it.</p>
+<p>If you tap the credit shown on a photo, your browser opens its source page at Wikimedia Commons or Pexels. From there you are on their site and their rules apply.</p>
+<p>The interface typefaces are not embedded either. The app downloads them once from fonts.gstatic.com (Google Fonts), then keeps them on the device. That request asks only for a font file and carries no indication about you; as with photos, Google sees your IP address and the usual technical information, and its privacy policy governs what it does with it.</p>
+<h2>What you share</h2>
+<p>“Share the list”, at the top of your shopping list, opens your device’s share sheet. The list leaves from there, as text, for the app you choose — your messages, your email, your notes — and only when you act: Braise does not choose the recipient, sends nothing on its own, and asks for no permission to do this.</p>
+<p>What happens to the list afterwards depends on the app you chose and on the people you send it to. If the share sheet cannot open, the list is copied to the device’s clipboard instead, as “Copy the list” does.</p>
+<p>“Share the recipe”, on a recipe you wrote, sends it the same way, as text, with the same clipboard fallback.</p>
+<p>“Export a backup”, in the Me tab, creates a file holding your own recipes and ingredients, your favourites, your At home profile (allergies included), your targets, the last settings of your recipes and your journal. The file leaves the app only when you act, for the app you choose in the share sheet — your files, your email, another device. It is not encrypted: anyone who opens it can read it, so keep it like a personal document. Braise only keeps the date of that export.</p>
+<p>“Export the journal (CSV)” and “Export the journal (JSON)”, in the Me tab, create a file holding only your journal: as a table for a spreadsheet, or as it is. Like the backup, it leaves the app only when you act, for the app you choose in the share sheet, and it is not encrypted. If the share sheet cannot open, the journal is copied to the device’s clipboard instead.</p>
+<p>“Import a backup” reads only the file you choose in your device’s document picker: Braise has access to no other file, and asks for no permission to do this. Importing only adds: it erases and replaces nothing already on the device.</p>
+<h2>If you write to us</h2>
+<p>“Your feedback”, in the Me tab, opens your email app with our address and a subject already filled in. Nothing is sent without your action: you write the message, and you send it, from your own email account.</p>
+<p>If you write to us, through that link or directly at koffi972@gmail.com, we receive your email address and your message. They are used only to reply to you, and deleted on request.</p>
+<h2>Children</h2>
+<p>The app collects no data, including from children. It contains no in-app purchase, no advertising and no chat.</p>
+<h2>Your rights</h2>
+<p>Rights of access, rectification, erasure and portability presuppose that someone holds data about you. The app sends us none: the only data the publisher holds are the emails you have sent. You can ask for a copy of them or for their deletion.</p>
+<p>Everything else sits on your device, in the backups you have turned on and in the files you export — backup or journal —, under your control.</p>
+<p>For that, as for any question, write to koffi972@gmail.com.</p>
+
+  <hr>
+  <p class="nav"><a href="conditions.en.html">Terms of Use</a> · <a href="credits.en.html">Credits and licences</a></p>
+  <p class="nav"><a href="confidentialite.fr.html">Français</a> · <a href="confidentialite.es.html">Español</a></p>
+  <p class="nav">Emile KOFFI · <a href="mailto:koffi972@gmail.com">koffi972@gmail.com</a></p>
+</main>
+</body>
+</html>

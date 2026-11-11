@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Braise — Crédits et licences</title>
+<style>
+  :root {
+    --paper: #FBF6EF; --ink: #1A1512; --muted: #6b625b;
+    --paprika: #C04B27; --rule: rgba(26,21,18,.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #120E0C; --ink: #F5EEE6; --muted: #a2988f;
+            --paprika: #F0703C; --rule: rgba(245,238,230,.14); }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink);
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         padding: 2.5rem 1.25rem 4rem; }
+  main { max-width: 44rem; margin: 0 auto; }
+  .brand { font-weight: 800; letter-spacing: .14em; text-transform: uppercase;
+           font-size: .72rem; color: var(--paprika); }
+  h1 { font-size: 2rem; line-height: 1.15; margin: .4rem 0 0; }
+  h2 { font-size: 1.2rem; line-height: 1.3; margin: 2.2rem 0 .6rem; }
+  .revised, .nav { color: var(--muted); font-size: .85rem; }
+  .intro { font-size: 1.05rem; }
+  ul { padding-left: 1.1rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--paprika); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0 1.2rem; }
+</style>
+</head>
+<body>
+<main>
+  <p class="brand">Braise</p>
+  <h1>Crédits et licences</h1>
+<p class="revised">Dernière révision : 2 novembre 2026</p>
+<p class="intro">Braise s’appuie sur le travail d’autres personnes. Cet écran les nomme, parce qu’un crédit absent se remarque et qu’un photographe non cité n’a rien demandé.</p>
+<h2>Photographies</h2>
+<p>Les photos proviennent de Wikimedia Commons, sous licences Creative Commons ou dans le domaine public, et de Pexels, sous licence Pexels. Celles signées « Braise » sont de l’éditeur et livrées avec l’application.</p>
+<p>Chaque photo affichée porte le nom de son auteur et sa licence ; pour celles des banques, le crédit renvoie d’un toucher à la page d’origine, où figurent les conditions complètes. Aucune image n’entre dans l’application sans ces mentions — un test automatique le vérifie à chaque construction.</p>
+<h2>Logiciels</h2>
+<p>L’application est écrite avec Flutter et Dart, publiés par Google sous licence BSD à trois clauses.</p>
+<ul>
+<li>flutter_riverpod — gestion d’état, licence MIT.</li>
+<li>go_router — navigation, licence BSD-3-Clause.</li>
+<li>shared_preferences — stockage local, licence BSD-3-Clause.</li>
+<li>cached_network_image — cache des photos, licence MIT.</li>
+<li>url_launcher — ouverture des pages de crédit et de la messagerie, licence BSD-3-Clause.</li>
+<li>share_plus — feuille de partage, licence BSD-3-Clause.</li>
+<li>file_selector — choix du fichier à importer, licence BSD-3-Clause.</li>
+<li>path_provider — emplacement du journal, licence BSD-3-Clause.</li>
+<li>wakelock_plus — écran allumé en mode cuisine, licence BSD-3-Clause.</li>
+<li>flutter_svg — illustrations, licence MIT.</li>
+<li>google_fonts — polices, licence Apache 2.0.</li>
+</ul>
+<h2>Données nutritionnelles</h2>
+<p>Les valeurs nutritionnelles sont dérivées de tables de composition des aliments de référence, appliquées aux quantités de chaque recette. Elles restent des estimations : voir les conditions d’utilisation.</p>
+
+  <hr>
+  <p class="nav"><a href="confidentialite.fr.html">Confidentialité</a> · <a href="conditions.fr.html">Conditions d’utilisation</a></p>
+  <p class="nav"><a href="credits.en.html">English</a> · <a href="credits.es.html">Español</a></p>
+  <p class="nav">Emile KOFFI · <a href="mailto:koffi972@gmail.com">koffi972@gmail.com</a></p>
+</main>
+</body>
+</html>
